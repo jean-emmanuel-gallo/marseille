@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F8F9FA;
+    height: 60px;
+  }
+
+  a {
+    text-decoration-line: none;
+    text-align: center;
+  }
+
+#logo {
+    height: 54px;
+    margin-top: -12px;
+}
+
+li {
+    float:left;
+    height: 43px;
+
+  }
+  
+li a {
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    margin-left: 0px;
+  }
+
+li a:hover {
+    background-color: #F8F9FA;
+    color: blue;
+  }
+
+.active {
+    background-color: #F8F9FA;
+  }
+
+
+
+.social {
+    align-items: flex-start;
+}
+
+.socmedia {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    float: right;
+    margin-top: -13px;
+}
+
+footer {
+  background-color: #F8F9FA;
+  margin-bottom: 0%;
+}
+
+#navfoot {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: grid;
+  text-align: center;
+  justify-items: center;
+}
+
+
+main {
+  background-color:rgb(255, 255, 255);
+}
+
+#presentation1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#presentation2 {
+  margin-top : 30px;
+  margin-left : 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#presentation3 {
+  margin-top : 30px;
+  margin-left : 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#presentation4 {
+  margin-top : 30px;
+  margin-left : 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#presentation3 h1 {
+  text-decoration: underline;
+  color: red;
+}
+
+#presentation4 h1 {
+  text-decoration: underline;
+  color: red;
+}
+
+#presentation5 h1 {
+  text-decoration: underline;
+  color: red;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  text-align: justify;
+}
+
+.button {
+  background-color: white;
+  color: blue;
+  height: 60px;
+  font-size: 35px;
+  border-radius: 10% 10% / 10% 10%;
+  text-decoration-line: none;
+}
+
+#bckg-img {
+  background-image: url('https://www.lepoint.fr/images/2022/03/28/22983576lpw-22985384-libre-jpg_8657181.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.btn {
+  background-color: white;
+  color: blue;
+  height: 60px;
+  font-size: 35px;
+  border-radius: 10% 10% / 10% 10%;
+  text-decoration-line: none;
+}
+
+.profil {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+
+#navsm {
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+#group {
+  margin-top: 20px;
+}
+
+.jumbotron {
+    width: 100%;
+}
+
+#bckg-img2 {
+  background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHw%3D&w=1000&q=80');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 250px;
+}
+
+
+h2 {
+  text-align: center;
+  color: white;
+  border: 3ch;
+  text-shadow: 0 0 6px #000000, 0 0 10px #000000;
+
+}
+
+.comment {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#history {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 10px;
+  margin-bottom: 60px;
+}
+
+#history p {
+  font-size: 20px;
+}
+
+h1.histoire {
+  text-decoration: underline;
+}
+
+#fondec1 {
+  height: 300px;
+  background-image: url("https://i.pinimg.com/originals/b4/66/8d/b4668df2b5f8b43f0e561bdaae06678b.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover; 
+}
+
+
+#fondec3 {
+  height: 300px;
+  background-image: url("https://www.realmofhistory.com/wp-content/uploads/2016/01/10_Facts_Greek_Hoplites.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover; 
+}
+
+#part1 {
+  margin-bottom: 60px;
+}
+
+#gallery {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#gallery h1 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#album {
+  align-items: center;
+}
+
+.album {
+  align-items: center;
+  height: 120px;
+}
+
+
+.lieux {
+  margin-top : 30px;
+  margin-left : 20px;
+  margin-right: 20px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: #43B5E0; 
+  border-radius: 9px; 
+  box-sizing: border-box; 
+  margin-top: 16px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #43B5E0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: #43B5E0;
+}
+
+@media screen and (max-width: 842px) {
+
+
+
+  header {
+    background-color: #333;
+    height: 301px;
+  }
+
+  footer {
+    background-color: #333;
+    margin-bottom: 0%;
+  }
+
+  #navbar {
+    display:table-cell;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 152px;
+    background-color: #333;
+    height: 300px;
+  }
+  
+  li {
+    float:left;
+    height: 43px;
+  }
+
+  .active {
+    background-color: #333;
+  }
+
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  #logo {
+    height: 45px;
+    margin-top: -8px;
+}
+
+.socmedia {
+  height: 40px;
+  width: 40px;
+}
+
+.jumbotron {
+    display: none;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px
+}
+
+#bckg-img2 {
+  display: none;
+}
+
+.comment {
+  font-size: 15px;
+}
+
+#fondec2 {
+  height: 0px;
+  background-image: url("https://i.pinimg.com/736x/cb/f0/5a/cbf05a157fbdd62a955f6cf70d6a978a--ancient-greek-greece.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover; 
+}
+}
+
+
